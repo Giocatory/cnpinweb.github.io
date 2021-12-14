@@ -16,7 +16,7 @@ a {
 }
 
 body {
-    width: 100vw;
+    width: 100%;
     background-image: url('../img/darkgrey-asphalt-3.jpg');
 }
 
@@ -106,6 +106,15 @@ main h1 {
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
+}
+
+main {
+    border-bottom: 2em dashed rgba(240, 240, 240, .8);
+}
+
+.section_category {
+    border-top: 2em solid rgba(240, 240, 240, .8);
+    margin-top: 1em;
 }
 
 @media screen and (max-width: 480px) {
