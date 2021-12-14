@@ -244,6 +244,13 @@ main h1 {
     width: 80%;
 }
 
+.learn_category:hover,
+.forum_category:hover,
+.code_category:hover {
+    display: block;
+    border: 1px solid var(--main-color);
+}
+
 .learn_category:hover p,
 .forum_category:hover p,
 .code_category:hover p {
@@ -301,6 +308,7 @@ main h1 {
     font-weight: bold;
     border: .1em solid var(--main-color);
     padding: .3em;
+    margin-bottom: 1.4rem;
 }
 
 .check_mark {
