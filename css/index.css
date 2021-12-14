@@ -110,6 +110,8 @@ main h1 {
 }
 
 .section_category {
+    -webkit-box-shadow: 0 -0.1rem 0.15rem 0.1rem rgb(208, 208, 208);
+    -moz-box-shadow: 0 -0.1rem 0.15rem 0.1rem rgb(208, 208, 208);
     box-shadow: 0 -0.1rem 0.15rem 0.1rem rgb(208, 208, 208);
 }
 
