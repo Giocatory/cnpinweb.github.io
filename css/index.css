@@ -215,21 +215,21 @@ main h1 {
 
 .learn_category {
     background-image: url('../img/kisspng-library-child-nati-per-leggere-librarian-reading-cartoon-books-5aa97b88cd0ce5.8381345215210566488399.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .forum_category {
     background-image: url('../img/kisspng-sbi-po-exam-discussion-group-book-discussion-club-praying-group-cliparts-5a7626173328f6.0412763615176924392096.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .code_category {
     background-image: url('../img/transparent-professions-and-jobs-icon-avatar-icon-programmer-i-5fda47be8b3041.5262634416081407345701.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
