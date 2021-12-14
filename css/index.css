@@ -18,6 +18,7 @@ a {
 body {
     width: 100%;
     background-image: url('../img/darkgrey-asphalt-3.jpg');
+    background-attachment: fixed;
 }
 
 .header {
@@ -108,13 +109,12 @@ main h1 {
     -o-border-radius: 1rem;
 }
 
-main {
-    border-bottom: 2em dashed rgba(240, 240, 240, .8);
+.section_category {
+    box-shadow: 0 -0.1rem 0.15rem 0.1rem rgb(208, 208, 208);
 }
 
 .section_category {
-    border-top: 2em solid rgba(240, 240, 240, .8);
-    margin-top: 1em;
+    background-image: url('../img/bg-1.png');
 }
 
 @media screen and (max-width: 480px) {
