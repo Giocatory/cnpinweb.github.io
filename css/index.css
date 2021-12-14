@@ -260,6 +260,54 @@ main h1 {
     -o-border-radius: 1rem;
 }
 
+.section_help {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.list_helps {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 3em 0;
+}
+
+.section_help h2 {
+    color: var(--main-color);
+    font-size: 3em;
+}
+
+.list_helps p {
+    border: 1px solid #000;
+    padding: .6em 2em;
+    background-color: var(--main-color);
+    font-weight: bold;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.call_to_help {
+    color: var(--main-color);
+    font-size: 1.25em;
+    font-weight: bold;
+    border: .1em solid var(--main-color);
+    padding: .3em;
+}
+
+.check_mark {
+    font-size: 2em;
+    color: green;
+}
+
 @media screen and (max-width: 480px) {
     main h1 {
         font-size: 2.5em;
