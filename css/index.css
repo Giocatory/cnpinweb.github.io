@@ -115,6 +115,7 @@ main h1 {
     font-size: 4.5em;
     color: var(--main-color);
     padding: .3em;
+    text-transform: uppercase;
 }
 
 .header_hr {
