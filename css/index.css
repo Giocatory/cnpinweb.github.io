@@ -75,6 +75,7 @@ body {
     height: 5em;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .header_menu {
@@ -109,6 +110,7 @@ main {
     justify-content: center;
     text-align: center;
     height: 40rem;
+    width: 100%;
 }
 
 main h1 {
@@ -126,11 +128,11 @@ main h1 {
 }
 
 .hr_h_one {
-    width: 80rem;
+    width: 80%;
 }
 
 .hr_h_two {
-    width: 45rem;
+    width: 45%;
 }
 
 .main_ru_dd {
@@ -166,6 +168,7 @@ main h1 {
     align-items: center;
     justify-content: center;
     text-align: center;
+    width: 100%;
 }
 
 .section_category h2 {
@@ -190,6 +193,7 @@ main h1 {
     justify-content: center;
     align-items: center;
     justify-items: center;
+    margin: 1em;
 }
 
 .inner_block {
