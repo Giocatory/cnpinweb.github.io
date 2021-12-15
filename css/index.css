@@ -118,6 +118,7 @@ main h1 {
     color: var(--main-color);
     padding: .3em;
     text-transform: uppercase;
+    text-shadow: .1rem .1rem 0 #f5f5f5;
 }
 
 .header_hr {
@@ -137,6 +138,7 @@ main h1 {
 
 .main_ru_dd {
     font-size: 2em;
+    text-shadow: .05rem .05rem 0 #f5f5f5;
 }
 
 .main_ru_dd {
@@ -164,7 +166,6 @@ main h1 {
     box-shadow: 0 -0.1rem 0.15rem 0.1rem rgb(208, 208, 208);
     display: flex;
     flex-direction: column;
-    justify-items: center;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -174,6 +175,7 @@ main h1 {
 .section_category h2 {
     color: var(--main-color);
     font-size: 3em;
+    text-shadow: .1rem .1rem 0 #332e34;
 }
 
 .list_category {
@@ -205,6 +207,11 @@ main h1 {
     justify-items: center;
     padding: .1rem;
     margin-top: .5rem;
+    border-radius: .7rem;
+    -webkit-border-radius: .7rem;
+    -moz-border-radius: .7rem;
+    -ms-border-radius: .7rem;
+    -o-border-radius: .7rem;
 }
 
 .learn_category,
@@ -255,7 +262,7 @@ main h1 {
 .forum_category:hover,
 .code_category:hover {
     display: block;
-    border: 1px solid var(--main-color);
+    box-shadow: .05rem .05rem .05rem .05rem var(--main-color), -0.05rem -0.05rem .05rem .05rem var(--main-color), -0.05rem 0.05rem .05rem .05rem var(--main-color), 0.05rem -0.05rem .05rem .05rem var(--main-color);
 }
 
 .learn_category:hover p,
@@ -295,6 +302,7 @@ main h1 {
 .section_help h2 {
     color: var(--main-color);
     font-size: 3em;
+    text-shadow: .08rem .08rem 0 #f5f5f5;
 }
 
 .list_helps p {
@@ -314,13 +322,49 @@ main h1 {
     font-size: 1.25em;
     font-weight: bold;
     border: .1em solid var(--main-color);
+    border-radius: .5rem;
     padding: .3em;
     margin-bottom: 1.4rem;
+    text-shadow: .05rem .05rem 0 #f5f5f5;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
 }
 
 .check_mark {
     font-size: 2em;
     color: green;
+    text-shadow: .1rem .1rem 0 green;
+}
+
+.section_author_contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url('../img/bg-1.png');
+    width: 100%;
+}
+
+.section_author_contacts h2 {
+    color: var(--main-color);
+    font-size: 3em;
+    text-shadow: .1rem .1rem 0 #332e34;
+}
+
+.author_foto {
+    background-image: url('../img/author.jpg');
+    width: 15rem;
+    height: 15rem;
+    background-size: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: .2rem solid var(--main-color);
 }
 
 @media screen and (max-width: 480px) {
