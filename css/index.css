@@ -3,6 +3,10 @@
 *::before {
     box-sizing: border-box;
     margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
 }
 
 :root {
@@ -480,5 +484,26 @@ footer ul li {
         height: 3em;
         width: 3em;
         background-size: contain;
+    }
+    .description_section,
+    .author_text {
+        word-break: break-all;
+    }
+    .description_section,
+    footer {
+        flex-wrap: wrap;
+        width: 100vw;
+        justify-content: left;
+    }
+    .first_li {
+        text-align: left;
+        padding: 1rem;
+    }
+    .author_foto,
+    .author_text {
+        margin: auto;
+    }
+    .author_text {
+        margin: 1rem;
     }
 }
