@@ -504,6 +504,18 @@ footer ul li {
         margin: auto;
     }
     .author_text {
-        margin: 1rem;
+        margin: .1rem;
+    }
+    .finance_help,
+    .repost_help,
+    .idea_help {
+        margin: 1rem 3rem;
+    }
+    .author_text {
+        width: 60rem;
+        text-align: left;
+    }
+    .call_to_help {
+        width: 100vw;
     }
 }
