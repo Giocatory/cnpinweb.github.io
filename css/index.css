@@ -519,3 +519,5 @@ footer ul li {
         width: 100vw;
     }
 }
+
+@media screen and (min-width: 481px) and (max-width: 600) {}
