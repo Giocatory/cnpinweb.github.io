@@ -487,7 +487,7 @@ footer ul li {
     }
     .description_section,
     .author_text {
-        word-break: break-all;
+        word-break: break-word;
     }
     .description_section,
     footer {
@@ -513,7 +513,7 @@ footer ul li {
     }
     .author_text {
         width: 60rem;
-        text-align: left;
+        text-align: justify;
     }
     .call_to_help {
         width: 100vw;
