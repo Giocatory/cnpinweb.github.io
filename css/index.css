@@ -513,7 +513,7 @@ footer ul li {
     }
     .author_text {
         width: 60rem;
-        text-align: justify;
+        text-align: center;
     }
     .call_to_help {
         width: 100vw;
