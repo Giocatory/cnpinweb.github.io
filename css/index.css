@@ -592,7 +592,7 @@ footer ul li {
         position: absolute;
         top: 0;
         right: 0;
-        left: -23rem;
+        left: -23.5rem;
         border-bottom: .1rem solid var(--main-color);
         border-left: .1rem solid var(--main-color);
         z-index: -1;
