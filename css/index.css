@@ -116,12 +116,14 @@ body {
 }
 
 .drop_menu_ul li {
+    display: block;
     list-style: none;
     text-align: center;
     padding: .3rem;
     margin: 0 10rem;
     color: var(--main-color);
     font-weight: bold;
+    width: 100%;
 }
 
 .img_menu:hover {
@@ -129,7 +131,9 @@ body {
 }
 
 .img_menu:hover .drop_menu_ul {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 main {
@@ -504,6 +508,10 @@ footer ul li {
         height: 3em;
         justify-content: space-between;
         align-items: center;
+    }
+    .drop_menu_ul {
+        top: 0;
+        right: 0;
     }
     .header_menu {
         height: 3em;
