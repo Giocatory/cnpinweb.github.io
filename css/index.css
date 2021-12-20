@@ -9,6 +9,10 @@
     -o-box-sizing: border-box;
 }
 
+ul li {
+    list-style: none;
+}
+
 :root {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     --main-color: rgb(255, 166, 0);
@@ -115,7 +119,7 @@ body {
     display: none;
 }
 
-.drop_menu_ul li {
+.ac-container {
     display: block;
     list-style: none;
     text-align: center;
@@ -124,6 +128,27 @@ body {
     color: var(--main-color);
     font-weight: bold;
     width: 100%;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.ac-container ul {
+    display: none;
+}
+
+.ac-container ul li {
+    padding: .3rem;
+}
+
+.ac-container:hover ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    justify-items: left;
+    text-align: left;
+    padding: .2rem;
 }
 
 .img_menu:hover {
