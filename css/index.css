@@ -77,7 +77,6 @@ body {
     left: 0;
     display: flex;
     height: 5em;
-    justify-content: space-between;
     align-items: center;
     width: 100%;
 }
@@ -90,6 +89,7 @@ body {
 
 .img_logo {
     background-image: url('../img/hamster.png');
+    margin-right: auto;
 }
 
 .img_logo a {
@@ -101,10 +101,35 @@ body {
 
 .img_menu {
     background-image: url('../img/menu-up.png');
+    position: relative;
+}
+
+.drop_menu_ul {
+    background-color: rgb(55, 52, 59);
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom: .1rem solid var(--main-color);
+    border-left: .1rem solid var(--main-color);
+    z-index: -1;
+    display: none;
+}
+
+.drop_menu_ul li {
+    list-style: none;
+    text-align: center;
+    padding: .3rem;
+    margin: 0 10rem;
+    color: var(--main-color);
+    font-weight: bold;
 }
 
 .img_menu:hover {
     background-image: url('../img/menu-down.png');
+}
+
+.img_menu:hover .drop_menu_ul {
+    display: block;
 }
 
 main {
