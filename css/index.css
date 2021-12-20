@@ -576,6 +576,45 @@ footer ul li {
     .call_to_help {
         width: 100vw;
     }
+    .drop_menu_ul {
+        background-color: rgb(55, 52, 59);
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: -23rem;
+        border-bottom: .1rem solid var(--main-color);
+        border-left: .1rem solid var(--main-color);
+        z-index: -1;
+        display: none;
+    }
+    .ac-container {
+        display: block;
+        list-style: none;
+        text-align: center;
+        padding: .3rem;
+        margin: 0 10rem;
+        color: var(--main-color);
+        font-weight: bold;
+        width: 100vw;
+        transition: 0.4s;
+        cursor: pointer;
+    }
+    .ac-container ul {
+        display: none;
+    }
+    .ac-container ul li {
+        padding: .3rem;
+    }
+    .ac-container:hover ul {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        padding: .2rem;
+    }
 }
 
 @media screen and (min-width: 481px) and (max-width: 600) {}
