@@ -85,6 +85,109 @@ body {
     background-attachment: fixed;
 }
 
+
+/* Всплывающее меню*/
+
+#hider,
+#quit_login_form {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+#hider:checked+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+#clickme,
+#quit_label {
+    cursor: pointer;
+}
+
+#quit_login_form:checked~.content {
+    display: none;
+}
+
+#quit_label:hover {
+    text-shadow: 0px 0px 20px var(--main-color);
+    transform: scale(2);
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    -o-transform: scale(2);
+}
+
+.content {
+    background-color: rgb(55, 52, 59);
+    width: 24%;
+    position: absolute;
+    top: 25%;
+    left: calc(50% - 24%/2);
+    border: .1rem solid var(--main-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    display: none;
+}
+
+.content p {
+    color: var(--main-color);
+    font-weight: bold;
+    font-size: .9em;
+    padding: .1rem .5rem;
+}
+
+.a_fogot:hover,
+.a_reg:hover {
+    text-shadow: 0px 0px 20px var(--main-color);
+}
+
+.content p a {
+    padding: .6rem;
+}
+
+input[type='text'],
+input[type="password"] {
+    width: 20rem;
+    height: 1.5rem;
+    text-align: center;
+    margin-top: .5rem;
+}
+
+input[type="submit"] {
+    margin: .5rem 0;
+    border: 1px solid #000;
+    padding: .6em 2rem;
+    background-color: var(--main-color);
+    font-weight: bold;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+input[type="submit"]:hover {
+    box-shadow: 0px 0px 20px var(--main-color);
+}
+
+#quit_label {
+    color: var(--main-color);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+/*###################*/
+
 .header {
     position: fixed;
     top: 0;
@@ -768,6 +871,26 @@ footer ul li:hover {
             -o-transform: scale(1);
             opacity: 1;
         }
+    }
+    .content {
+        background-color: rgb(55, 52, 59);
+        width: 96%;
+        position: absolute;
+        top: 25%;
+        left: calc(50% - 96%/2);
+        border: .1rem solid var(--main-color);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        display: none;
+    }
+    #quit_label {
+        color: var(--main-color);
+        position: absolute;
+        top: -0.1rem;
+        right: -0.1rem;
     }
 }
 

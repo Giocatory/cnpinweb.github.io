@@ -11,6 +11,17 @@
 </head>
 
 <body>
+    <input type="radio" name="control" id="quit_login_form">
+    <input type="radio" name="control" id="hider">
+    <div class="content">
+        <label for="quit_login_form" id="quit_label">&#10008;</label>
+        <form action="">
+            <p><input type="text" name="" id="" placeholder="user name"></p>
+            <p><input type="password" name="" id="" placeholder="password"></p>
+            <p><input type="submit" value="Войти"></p>
+            <p><a href="" class="a_reg">Регистрация</a> | <a href="" class="a_fogot">Востановить пароль</a></p>
+        </form>
+    </div>
     <header class="header">
         <div class="header_menu img_logo"><a href="#home">H</a></div>
         <div class="header_menu img_menu" id="btn">
@@ -45,7 +56,7 @@
         <hr class="header_hr hr_h_one">
         <hr class="header_hr hr_h_two">
         <p class="main_ru_dd">Сообщество начинающих программистов</p>
-        <p class="main_button"><a href="#Go-to-connect">присоединиться</a></p>
+        <p class="main_button"><label class="link" for="hider" id="clickme">присоединиться</label></p>
     </main>
     <section class="section_category">
         <h2 id="Go-to-connect">Выбирай что нравится</h2>
@@ -121,8 +132,7 @@
             <li><a href="https://t.me/Giocatory">Telegram</a></li>
         </ul>
     </footer>
-    <script src="scripts/menu.js"></script>
-
+    <script src="scripts/add_class_from_scroll.js"></script>
 </body>
 
 </html>
