@@ -713,6 +713,42 @@ footer ul li:hover {
         text-align: center;
         padding: .2rem;
     }
+    .cabail.active {
+        position: relative;
+        animation: categoryMob .8s ease-in-out;
+        -webkit-animation: categoryMob .8s ease-in-out;
+        transition-property: all;
+    }
+    .cabaif.active {
+        position: relative;
+        animation: categoryMob .8s ease-in-out;
+        -webkit-animation: categoryMob .8s ease-in-out;
+        transition-property: all;
+    }
+    .cabaic.active {
+        position: relative;
+        animation: categoryMob .8s ease-in-out;
+        -webkit-animation: categoryMob .8s ease-in-out;
+        transition-property: all;
+    }
+    @keyframes categoryMob {
+        from {
+            transform: scale(0.2);
+            -webkit-transform: scale(0.2);
+            -moz-transform: scale(0.2);
+            -ms-transform: scale(0.2);
+            -o-transform: scale(0.2);
+            opacity: 0;
+        }
+        to {
+            transform: scale(1);
+            -webkit-transform: scale(1);
+            -moz-transform: scale(1);
+            -ms-transform: scale(1);
+            -o-transform: scale(1);
+            opacity: 1;
+        }
+    }
 }
 
 @media screen and (min-width: 481px) and (max-width: 600) {}
