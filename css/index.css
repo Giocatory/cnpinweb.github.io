@@ -304,6 +304,7 @@ main h1 {
     align-items: center;
     justify-items: center;
     margin: 1em;
+    opacity: 0;
 }
 
 .inner_block {
@@ -399,6 +400,7 @@ main h1 {
     animation: categoryMob .8s ease-in-out;
     -webkit-animation: categoryMob .8s ease-in-out;
     transition-property: all;
+    opacity: 1;
 }
 
 .cabaif.active {
@@ -406,6 +408,7 @@ main h1 {
     animation: categoryMob .8s ease-in-out;
     -webkit-animation: categoryMob .8s ease-in-out;
     transition-property: all;
+    opacity: 1;
 }
 
 .cabaic.active {
@@ -413,6 +416,7 @@ main h1 {
     animation: categoryMob .8s ease-in-out;
     -webkit-animation: categoryMob .8s ease-in-out;
     transition-property: all;
+    opacity: 1;
 }
 
 @keyframes categoryMob {
@@ -731,18 +735,21 @@ footer ul li:hover {
         animation: categoryMob .8s ease-in-out;
         -webkit-animation: categoryMob .8s ease-in-out;
         transition-property: all;
+        opacity: 1;
     }
     .cabaif.active {
         position: relative;
         animation: categoryMob .8s ease-in-out;
         -webkit-animation: categoryMob .8s ease-in-out;
         transition-property: all;
+        opacity: 1;
     }
     .cabaic.active {
         position: relative;
         animation: categoryMob .8s ease-in-out;
         -webkit-animation: categoryMob .8s ease-in-out;
         transition-property: all;
+        opacity: 1;
     }
     @keyframes categoryMob {
         from {
