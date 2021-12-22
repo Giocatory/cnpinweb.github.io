@@ -102,6 +102,18 @@ body {
     justify-content: center;
     justify-items: center;
     text-align: center;
+    animation: signin .8s ease-in-out;
+    -webkit-animation: signin .8s ease-in-out;
+    transition-property: all;
+}
+
+@keyframes signin {
+    from {
+        top: -10%;
+    }
+    to {
+        top: 25%
+    }
 }
 
 #clickme,
