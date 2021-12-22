@@ -394,10 +394,22 @@ main h1 {
     position: relative;
 }
 
-.category_block.active {
+.cabail.active {
+    position: relative;
+    animation: category 1s ease-in-out;
+    -webkit-animation: category .5s ease-in-out;
+}
+
+.cabaif.active {
     position: relative;
     animation: category 1s ease-in-out;
     -webkit-animation: category 1s ease-in-out;
+}
+
+.cabaic.active {
+    position: relative;
+    animation: category 1s ease-in-out;
+    -webkit-animation: category 1.2s ease-in-out;
 }
 
 @keyframes category {
@@ -465,6 +477,20 @@ main h1 {
     -moz-border-radius: .5rem;
     -ms-border-radius: .5rem;
     -o-border-radius: .5rem;
+}
+
+.call_to_help.active {
+    animation: blinking .1s ease infinite;
+    -webkit-animation: blinking 1s ease infinite;
+}
+
+@keyframes blinking {
+    from {
+        box-shadow: 0px 0px 20px var(--main-color);
+    }
+    to {
+        box-shadow: none;
+    }
 }
 
 .check_mark {
