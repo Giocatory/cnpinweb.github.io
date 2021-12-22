@@ -394,10 +394,10 @@ main h1 {
     position: relative;
 }
 
-.category_block {
+.category_block.active {
     position: relative;
-    animation: category 2s ease-in-out;
-    -webkit-animation: category 2s ease-in-out;
+    animation: category 1s ease-in-out;
+    -webkit-animation: category 1s ease-in-out;
 }
 
 @keyframes category {
