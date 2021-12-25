@@ -377,7 +377,8 @@ main h1 {
 .github:hover,
 .linkedin:hover,
 .telegramm:hover,
-.call_to_help:hover {
+.call_to_help:hover,
+.shadow:hover {
     box-shadow: 0px 0px 20px var(--main-color);
 }
 
@@ -594,6 +595,73 @@ main h1 {
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
+    position: relative;
+}
+
+.button {
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.shadow {
+    position: absolute;
+    top: 0;
+    left: 7.5rem;
+    height: 2.5rem;
+    width: 0;
+    background: rgb(55, 52, 59);
+    /* overflow: hidden; */
+    transition: all ease 1.5s;
+    border-radius: 5px;
+    -webkit-transition: all ease 1.5s;
+    -moz-transition: all ease 1.5s;
+    -ms-transition: all ease 1.5s;
+    -o-transition: all ease 1.5s;
+    box-shadow: 0px 0px 20px var(--main-color);
+}
+
+.shadow span {
+    opacity: 0;
+    transition: all ease 3s;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.shadow span img {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    padding-top: .3rem;
+    transition: all ease 1s;
+    -webkit-transition: all ease 1s;
+    -moz-transition: all ease 1s;
+    -ms-transition: all ease 1s;
+    -o-transition: all ease 1s;
+}
+
+.shadow span img:hover {
+    transform: scale(2);
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    -o-transform: scale(2);
+}
+
+.button:hover .shadow {
+    width: 100%;
+    margin: auto;
+    top: 0;
+    left: 0;
+}
+
+.button:hover p {
+    opacity: 0;
+}
+
+.button:hover .shadow span {
+    opacity: 1;
 }
 
 .call_to_help {
