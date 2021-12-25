@@ -629,24 +629,20 @@ main h1 {
     justify-items: center;
 }
 
-.shadow span img {
-    display: block;
-    width: 2rem;
-    height: 2rem;
-    padding-top: .3rem;
+.ya-share2 {
+    width: 100%;
+    height: 3rem;
+    padding-top: .5rem;
+    transform: scale(1.2);
     transition: all ease 1s;
     -webkit-transition: all ease 1s;
     -moz-transition: all ease 1s;
     -ms-transition: all ease 1s;
     -o-transition: all ease 1s;
-}
-
-.shadow span img:hover {
-    transform: scale(2);
-    -webkit-transform: scale(2);
-    -moz-transform: scale(2);
-    -ms-transform: scale(2);
-    -o-transform: scale(2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
 }
 
 .button:hover .shadow {
