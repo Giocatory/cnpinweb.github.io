@@ -632,17 +632,17 @@ main h1 {
 .ya-share2 {
     width: 100%;
     height: 3rem;
-    padding-top: .5rem;
-    transform: scale(1.2);
+    padding-top: .3rem;
+    transform: scale(1);
     transition: all ease 1s;
     -webkit-transition: all ease 1s;
     -moz-transition: all ease 1s;
     -ms-transition: all ease 1s;
     -o-transition: all ease 1s;
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
     display: none;
 }
 
