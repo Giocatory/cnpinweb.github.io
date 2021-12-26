@@ -643,6 +643,7 @@ main h1 {
     -moz-transform: scale(1.2);
     -ms-transform: scale(1.2);
     -o-transform: scale(1.2);
+    display: none;
 }
 
 .button:hover .shadow {
@@ -654,6 +655,11 @@ main h1 {
 
 .button:hover p {
     opacity: 0;
+}
+
+.button:hover,
+.ya-share2 {
+    display: block;
 }
 
 .button:hover .shadow span {
